@@ -11,6 +11,6 @@ SUM=$((N1+N2))
 
 echo "Sum of N1 and N2 is : $SUM"
 
-DIVIDE=$((N1/N2))
+MINUS=$((N1-N2))
 
-echo "Division of N1 and N2 is : $DIVIDE"
+echo "Division of N1 and N2 is : $MINUS"
