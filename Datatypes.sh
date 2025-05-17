@@ -1,7 +1,7 @@
 #!/bin/bash
 
-N1=$1
-N2=$2
+N1=100
+N2=200
 
 Timestamp=$(Date)
 
@@ -11,6 +11,6 @@ SUM=(($N1+$N2))
 
 echo "Sum of $N1 and $N2 is: $SUM"
 
-MULTIPLY=(($N1+$N2))
+MULTIPLY=(($N1*$N2))
 
 echo "Multiply of $N1 and $N2 is: $MULTIPLY"
