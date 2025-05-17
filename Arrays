@@ -1,0 +1,6 @@
+#!/bin/bash
+
+GROCERIES=( 'SNACKS' 'MASALA POWDERS' 'VEGETABLES' 'DRYFRUITS' 'ICE-CREAM' )
+
+echo "$(GROCERIES[4])"
+echo "$(GROCERIES[2])"
