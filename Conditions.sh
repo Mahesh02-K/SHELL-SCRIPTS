@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if (raining)
-    echo "don't go outside"
-else
-    echo "go and njoy"
+if ( $N -gt 100)
+    echo "$N is greater than 100"
+else 
+    echo "$N is not greater than 100"
+fi
