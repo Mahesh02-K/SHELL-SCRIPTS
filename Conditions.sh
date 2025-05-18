@@ -5,7 +5,7 @@
 #-ne is not equal
 #-eq is equal
 
-if [ $N -gt 100 ]
+if [ $N > 100 ]
 then
     echo "$N is greater than 100"
 else 
