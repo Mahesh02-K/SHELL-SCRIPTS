@@ -1,7 +1,9 @@
 #!/bin/bash
 
-if ( raining ) 
+if ( raining ) {
     echo "don't go outside"
-else
+}
+else {
     echo "go and njoy"
+}
 fi
