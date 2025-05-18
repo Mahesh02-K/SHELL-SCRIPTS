@@ -13,3 +13,10 @@ then
 else 
     echo "$N is not greater than 100"
 fi
+
+if [ umbrella ]
+then 
+    echo "don't go"
+else
+    echo "go"
+fi
