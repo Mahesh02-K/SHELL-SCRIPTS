@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Number=$1
+N=$1
 
 #-gt is greater than
 #-lt is less than
