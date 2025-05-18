@@ -7,4 +7,4 @@ echo "home directory of user : $HOME"
 echo "PID of the script : $$"
 echo "PID of last command running in background : $!"
 sleep 10 &
-echo "Script name : $?"
+echo "Script name : $0"
