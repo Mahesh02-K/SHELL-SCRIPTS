@@ -1,11 +1,13 @@
 #!/bin/bash
 
+Number=$1
+
 #-gt is greater than
 #-lt is less than
 #-ne is not equal
 #-eq is equal
 
-if [ $N > 100 ]
+if [ $N -gt 100 ]
 then
     echo "$N is greater than 100"
 else 
