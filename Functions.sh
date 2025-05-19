@@ -23,7 +23,7 @@ if [ $? -ne 0 ]
 then 
     echo "mysql is not installed.. going to install it"
     dnf install mysql -y
-    VERIFY $? mysql
+    VERIFY $? "mysql"
 else
     echo "mysql is already installed.. nothing to do it"
 fi 
@@ -33,16 +33,16 @@ if [ $? -ne 0 ]
 then 
     echo "python is not installed.. going to install it"
     dnf install python -y
-    VERIFY $? python
+    VERIFY $? "python"
 else
     echo "python is already installed.. nothing to do it"
 fi
 dnf list installed nginx
-if [ $? -ne o ]
+if [ $? -ne 0 ]
 then 
     echo "nginx is not installed.. going to install it"
     dnf install nginx -y
-    VERIFY $? nginx
+    VERIFY $? "nginx"
 else 
     echo "nginx is already installed.. nothing to do it"
 fi
