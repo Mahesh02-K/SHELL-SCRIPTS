@@ -23,3 +23,7 @@ then
 else
     echo "mysql is already installed.. Nothing to do"
 fi
+
+# $? is exit code of previous command in script,it is SUCCESS if it's 0,Failure other than 0
+# for installing packages need to run the script with root access only,that's y we are checking first its running with root or not USERID=$(id -u)
+# Before instaling any packages, we need to check if its already installed or not, so we wrote if condition for dnf list installed mysql
