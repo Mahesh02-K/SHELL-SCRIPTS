@@ -17,6 +17,7 @@ VERIFY(){
         echo "Installing $2 is ..FAILURE"
     fi
 }
+# VERIFY is a function that takes input as exit status and what command they try to install
 
 
 dnf list installed mysql
