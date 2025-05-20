@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "\e[1;31;43mHello\e[0m"
+echo -e "\e[34mHello\e[0m"
