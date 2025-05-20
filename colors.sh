@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo -e "\e[34mHello\e[0m"
+echo -e "\e[34m Hello Bruh"
+echo "Hi Mahesh"
