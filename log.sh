@@ -8,7 +8,7 @@ M="\e[35m"
 B="\e[34m"
 N="\e[0m"
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then
     echo -e " $G ERROR:You are not running with root access $N "
     exit 1
