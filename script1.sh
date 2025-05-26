@@ -4,4 +4,4 @@ GREET="Good Morning Everyone"
 echo "$GREET"
 echo "PID of script1 : $$"
 
-source ./script2.sh
+./script2.sh
